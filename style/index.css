@@ -1,1 +1,50 @@
 /* Add CSS styling here */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid grey;
+}
+
+html{
+  font-size: 62.5%;
+}
+body{
+  font-size: 1.6 rem;
+  line-height: 1.5;
+}
+section{
+  padding: 4% 0;
+}
+h1, h2{
+  margin: 2% 0;
+}
+h1{
+  font-size: 4rem;
+}
+h2{
+  font-size: 3.5rem;
+}
+.top-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.bg-img{
+  background-image: url('../assets/bg-img.jpeg');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
+  
+}
+footer{
+  background-color: lightgray;
+  text-align: center;
+  padding: 25px;
+}
